@@ -10,26 +10,23 @@
 
 @media screen and (min-width: 320px) {
     .lead__title {
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
     .lead__title {
-        width: 720px;
-        height: 200px;
-        font-size: 96px;
-        line-height: 100px;
+        max-width: 480px;
+        font-size: 56px;
+        line-height: 66px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .lead__title {
-        width: 720px;
-        height: 200px;
+        max-width: 720px;
         font-size: 96px;
         line-height: 100px;
     }

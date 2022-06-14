@@ -1,4 +1,6 @@
 .place__url-heading {
+    font-size: 12px;
+    line-height: 170%;
     margin: 0;
     padding: 0;
 }

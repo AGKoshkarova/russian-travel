@@ -11,7 +11,7 @@
     .footer {
         flex-direction: column;
         padding: 64px 118px 24px 16px;
-        width: 186px;
+        min-width: 186px;
         height: 310px;
     }
 }
@@ -20,7 +20,7 @@
     .footer {
         flex-direction: row;
         padding: 88px 24px 24px;
-        width: 720px;
+        min-width: 720px;
         height: 18px;
     }
 }
@@ -28,7 +28,7 @@
 @media screen and (min-width: 1024px) {
     .footer {
         padding: 92px 48px 24px;
-        width: 928px;
+        min-width: 928px;
     }
 }
 
