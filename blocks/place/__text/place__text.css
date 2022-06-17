@@ -25,13 +25,13 @@
 
 @media screen and (min-width:1024px) {
     .place__text {
-        max-width: 456px;
+        min-width: 456px;
         font-size: 18px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .place__text {
-        width: 484px;
+        min-width: 484px;
     }
 }
